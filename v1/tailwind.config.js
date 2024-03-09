@@ -21,7 +21,7 @@ module.exports = {
         raleway: ['Raleway'],
       },
       backgroundImage: {
-        'hero-pattern': "url('../v1/src/assets/radial.webp')",
+        'hero-pattern': "url('../src/assets/radial.webp')",
         'gradient-text':
           'linear-gradient(to right, #7186ff 11%, #e94459)',
       },
