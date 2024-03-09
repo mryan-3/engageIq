@@ -1,12 +1,13 @@
 import Hero from './components/Hero.tsx'
+import Navbar from './components/Navbar.tsx'
 
 function App() {
-
-    return (
-        <>
-                <Hero />
-        </>
-    )
+  return (
+    <>
+        <Navbar />
+      <Hero />
+    </>
+  )
 }
 
 export default App

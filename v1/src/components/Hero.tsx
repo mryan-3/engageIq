@@ -4,8 +4,8 @@ import { Play } from 'lucide-react'
 
 const Hero: React.FC = () => {
   return (
-    <main className='w-full h-full flex  items-center justify-center bg-primary '>
-      <div className='relative bg-hero-pattern bg-[50%] bg-no-repeat p-6 flex flex-col items-center justify-center '>
+    <main className='w-full relative h-full flex  items-center justify-center bg-primary '>
+      <div className=' bg-hero-pattern bg-[50%] bg-no-repeat p-6 flex flex-col items-center justify-center '>
         <div className='bg-[#141219b3] absolute top-0 left-0 right-0 bottom-0'></div>
 
         <div className=' flex flex-col relative  items-center justify-center '>
