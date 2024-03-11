@@ -11,7 +11,7 @@ import Coda from '../assets/coda.png'
 
 const Companies:React.FC = () => {
     return (
-        <div className="w-full bg-primary h-full py-24 flex flex-col justify-center items-center ">
+        <div className="w-full bg-primary h-full py-12 flex flex-col justify-center items-center ">
         <h2 className="text-center text-white  mb-6 font-raleway text-[16px]">Trusted by customer-led product companies</h2>
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6 lg:grid-cols-8 border-divider py-10 border-b-2">
             <img src={Canva} width={125} />

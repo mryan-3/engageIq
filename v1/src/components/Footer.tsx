@@ -4,11 +4,11 @@ import { LinkedinIcon, Mail, Twitter, YoutubeIcon } from 'lucide-react'
 
 const Footer: React.FC = () => {
   return (
-    <div className='w-full h-full bg-primary font-raleway'>
+    <div className='w-full h-full bg-primary pt-12 font-raleway'>
       <div className='flex flex-col lg:flex-row-reverse gap-12'>
         <div className='grid grid-cols-2 md:grid-cols-3 md:justify-between gap-12 justify-start  '>
           <div className=' flex flex-col gap-2 px-8'>
-            <h2 className='text-white text-[20px] font-bold '>Company</h2>
+            <h2 className='text-white text-[17px] sm:text-[20px] font-bold '>Company</h2>
             <ul className='text-[#d8d3ff] mt-1 '>
               <li className='py-2'>
                 <a>Home</a>
@@ -26,12 +26,12 @@ const Footer: React.FC = () => {
           </div>
 
           <div className=' flex flex-col gap-2  '>
-            <h2 className='text-white text-[20px] font-bold '>Product</h2>
-            <ul className='text-[#d8d3ff] mt-1'>
+            <h2 className='text-white text-[17px] sm:text-[20px] font-bold '>Product</h2>
+            <ul className='text-[#d8d3ff]  mt-1'>
               <li className='py-2'>
                 <a>Changelog</a>
               </li>
-              <li className='py-2'>
+              <li className='py-2 '>
                 <a>Integrations</a>
               </li>
               <li className='py-2'>
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
             <p>Customer Feedback Analytics</p>
             <p>like it was supposed to be!</p>
           </div>
-          <div className='flex gap-2 '>
+          <div className='flex gap-2 flex-wrap '>
             <a>
               <LinkedinIcon width={30} />
             </a>
