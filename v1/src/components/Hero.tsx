@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     <main className='w-full bg-hero-pattern bg-[50%] bg-no-repeat  relative flex items-center justify-center bg-primary h-full'>
       <div className=' p-6 flex flex-col items-center justify-center w-full'>
         <div className='bg-[#141219b3] absolute top-0 left-0 right-0 bottom-0'></div>
-        <div className='relative z-10 flex flex-col items-center justify-center w-full max-w-7xl mx-auto'>
+        <div className='relative z-10 flex flex-col items-center justify-center w-full max-w-7xl mx-auto md:py-24'>
           <div className='flex flex-col px-2 text-center'>
             <h1 className='font-raleway text-white font-bold text-4xl sm:text-5xl md:text-6xl'>
               Transform customer feedback into

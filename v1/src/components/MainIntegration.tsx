@@ -9,7 +9,7 @@ const MainIntegration: React.FC = () => {
         <div className='p-2 flex justify-center items-center lg:w-[60%]'>
           <img src={Logo} width={601} className='mb-12' />
         </div>
-        <div className='px-8 flex flex-col my-6 justify-center lg:w-[40%]'>
+        <div className='sm:px-8 flex flex-col my-6 justify-center lg:w-[40%]'>
           <h2 className='text-gradient1 my-6 font-raleway text-[18px] md:text-[20px] uppercase'>
             Integrations
           </h2>

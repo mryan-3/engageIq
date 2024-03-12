@@ -4,7 +4,7 @@ import { LinkedinIcon, Mail, Twitter, YoutubeIcon } from 'lucide-react'
 
 const Footer: React.FC = () => {
   return (
-    <div className='w-full h-full bg-primary pt-12 font-raleway'>
+    <div className='w-full h-full bg-primary pt-12 font-raleway flex items-center justify-center'>
       <div className='flex flex-col lg:flex-row-reverse gap-12'>
         <div className='grid grid-cols-2 md:grid-cols-3 md:justify-between gap-12 justify-start  '>
           <div className=' flex flex-col gap-2 px-8'>
