@@ -51,7 +51,7 @@ const Features: React.FC = () => {
   return (
     <div className='bg-primary w-full min-h-screen font-raleway py-12'>
       <div className='flex flex-col items-center justify-center px-8'>
-        <h2 className='text-white my-8 font-raleway font-bold text-[20px] md:text-[20px] '>
+        <h2 className='text-white my-6 font-raleway font-bold text-[18px] md:text-[20px] '>
           Listen, learn, and act on customer feedback.
         </h2>
         <div className='grid grid-cols-1 lg:grid-cols-3 items-center justify-between gap-12'>
