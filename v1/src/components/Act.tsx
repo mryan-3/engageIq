@@ -4,7 +4,7 @@ import Logo from '../assets/growth-min.webp'
 const Act: React.FC = () => {
   return (
     <div className='bg-primary w-full h-full font-raleway py-12'>
-      <div className='flex flex-col items-center md:flex-row-reverse'>
+      <div className='flex flex-col items-center md:flex-row-reverse border-b-2 border-divider'>
         <div className='p-2'>
           <img
             src={Logo}

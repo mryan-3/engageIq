@@ -6,6 +6,7 @@ import MainIntegration from './components/MainIntegration.tsx'
 import Act from './components/Act.tsx'
 import Navbar from './components/Navbar.tsx'
 import SecurityIntegration from './components/SecurityIntegration.tsx'
+import Features from './components/Features.tsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Companies />
       <EngageAdvantage />
       <Act />
+      <Features />
       <MainIntegration />
       <SecurityIntegration />
       <Footer />

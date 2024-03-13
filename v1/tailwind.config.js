@@ -34,6 +34,7 @@ module.exports = {
         gradient2: '#fe7587',
         gradientText: '',
         divider: '#f5f5f51a',
+        dropdownBorder: 'rgba(255, 255, 255, .1)',
         foreground: 'hsl(var(--foreground))',
         hoverCTAButton: '#2d1d34',
         primary: {
