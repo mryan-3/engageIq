@@ -5,11 +5,11 @@ import { Button } from './ui/button'
 const SecurityIntegration: React.FC = () => {
   return (
     <div className='bg-primary font-raleway flex justify-center items-center  py-12 w-full h-full '>
-      <div className='grid grid-cols-1  lg:grid-cols-2 w-full max-w-[80%] justify-center items-center border-b-2 border-divider my-6  '>
+      <div className='grid grid-cols-1  lg:grid-cols-2 w-full  items-center border-b-2 border-divider my-6  '>
         <div className='p-2 flex justify-center items-center'>
           <img src={Security} width={410.5} className='mb-12' />
         </div>
-        <div className='flex flex-col my-6   justify-center px-8'>
+        <div className='flex flex-col my-6   justify-center  px-8'>
           <h2 className='text-gradient1 my-6 font-raleway text-[18px] md:text-[20px] uppercase'>
             Security
           </h2>
