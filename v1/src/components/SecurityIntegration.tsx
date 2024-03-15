@@ -15,10 +15,10 @@ const SecurityIntegration: React.FC = () => {
           </h2>
           <h3 className='text-white mb-6 text-[36px] md:text-[38px] font-semibold inline'>
             Built for scale
-            <h3 className='text-white mb-6 text-[36px] md:text-[38px] font-semibold inline'>
-              {' '}
-              and enterprise level security
-            </h3>
+          </h3>
+          <h3 className='text-white mb-6 text-[36px] md:text-[38px] font-semibold inline'>
+            {' '}
+            and enterprise level security
           </h3>
           <p className='text-white text-[18px] md:text-[20px] font-light leading-7'>
             SOC-2 Type || certification, penetration tested, and regular

@@ -4,9 +4,9 @@ import { Button } from './ui/button'
 
 const MainIntegration: React.FC = () => {
   return (
-    <div className='bg-primary w-full h-fit py-12 flex justify-center items-center font-raleway'>
+    <div className='bg-primary w-full h-fit py-12 flex items-center font-raleway'>
       <div className='flex flex-col lg:flex-row-reverse items-center justify-between border-b-2 border-divider'>
-        <div className='p-2 flex justify-center items-center'>
+        <div className='p-2 '>
           <img src={Logo} width={601} className='mb-12' />
         </div>
         <div className='px-8 flex flex-col my-6 justify-center w-full lg:w-[50%]'>

@@ -9,7 +9,7 @@ const EngageAdvantage: React.FC = () => {
                 <div className='flex flex-col justify-start min-w-[70%] md:max-w-[80%]'>
                     <h2 className='text-gradient1 py-2 font-raleway text-[18px] md:text-[1rem] uppercase tracking-widest font-bold leading-[1.4]'>
                         The EngageIq Advantage</h2>
-                    <div className='text-white text-[24px] font-semibold block text-left leading-[2.5]'>
+                    <div className='text-white text-[20px] md:text-[24px] font-semibold block text-left leading-[1.7] md:leading-[2.5]'>
                         EngageIQ automatically unifies your customer feedback across all
                         data types and builds adaptive AI models tailored to your feedback
                         architecture, delivering precise and granular insights.
