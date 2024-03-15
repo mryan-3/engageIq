@@ -7,6 +7,8 @@ import Act from './components/Act.tsx'
 import Navbar from './components/Navbar.tsx'
 import SecurityIntegration from './components/SecurityIntegration.tsx'
 import Features from './components/Features.tsx'
+import Centralize from './components/Centralize.tsx'
+import Discover from './components/Discover.tsx'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Hero />
       <Companies />
       <EngageAdvantage />
+      <Centralize />
+      <Discover />
       <Act />
       <Features />
       <MainIntegration />

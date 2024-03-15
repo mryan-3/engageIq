@@ -26,7 +26,28 @@ const Navbar: React.FC = () => {
                             <NavigationMenuTrigger>Products</NavigationMenuTrigger>
                             <NavigationMenuContent>
                                 <NavigationMenuIndicator />
-                                <ul className='grid gap-3 p-6 md:w-[200px]'>
+                                <ul className='grid gap-3 p-6 w-[1000px] z-90 relative'>
+                                    <li>
+                                        <NavigationMenuLink asChild>
+                                            <a className='block rounded-md px-3 py-2 transition hover:bg-accent focus:outline-none focus:bg-accent'>
+                                                Product 1
+                                            </a>
+                                        </NavigationMenuLink>
+                                    </li>
+                                    <li>
+                                        <NavigationMenuLink asChild>
+                                            <a className='block rounded-md px-3 py-2 transition hover:bg-accent focus:outline-none focus:bg-accent'>
+                                                Product 1
+                                            </a>
+                                        </NavigationMenuLink>
+                                    </li>
+                                    <li>
+                                        <NavigationMenuLink asChild>
+                                            <a className='block rounded-md px-3 py-2 transition hover:bg-accent focus:outline-none focus:bg-accent'>
+                                                Product 1
+                                            </a>
+                                        </NavigationMenuLink>
+                                    </li>
                                     <li>
                                         <NavigationMenuLink asChild>
                                             <a className='block rounded-md px-3 py-2 transition hover:bg-accent focus:outline-none focus:bg-accent'>
