@@ -9,6 +9,7 @@ import SecurityIntegration from './components/SecurityIntegration.tsx'
 import Features from './components/Features.tsx'
 import Centralize from './components/Centralize.tsx'
 import Discover from './components/Discover.tsx'
+import Testimonial from './components/Testimonials.tsx'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Features />
       <MainIntegration />
       <SecurityIntegration />
+      <Testimonial />
       <Footer />
     </div>
   )
